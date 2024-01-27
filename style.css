@@ -64,8 +64,9 @@ nav ul li a:hover{
 	height: 150px;
 	width: auto;
 	position: fixed;
-	top: 20;
-	border-radius: 100%;
+	top: 5px;
+	clip-path: circle();
+/*	border-radius: 100%;*/
 	margin-top: 100px;
 }
 .info h2{
@@ -93,8 +94,8 @@ nav ul li a:hover{
 .social{
 	font-size: 16px;
 	position: fixed;
-	margin-top: 300px;
-	margin-left: 50px;
+	margin-top: 250px;
+	margin-left: 85px;
 	text-decoration: none!important;
 	color: dimgray;
 	justify-content: space-around;
